@@ -1,0 +1,170 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	
+}
+.first{
+	height:100%;
+	width:100%;
+	display: flex;
+}
+.first-a{
+	background:rgba(0, 0, 0,1);
+	height:800px;
+	width:25%;
+	position:fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+
+}
+.first-a-text p{
+	font-size:3vw;
+	height:5%;
+
+	width:100%;
+	top:0;
+	left:0;
+	position: fixed;
+	color:rgb(241, 233, 233);
+}
+.first-a-btn button{
+
+	color:black;
+	margin-top:175%;
+	background:#d9ced2;
+	margin-left:25%;
+	height:35px;
+	width:70px;
+	border-radius:10px;
+	transition:1s ;
+
+
+}
+.first-b{
+	background:rgba(8, 0, 0, 0.9);
+	height:auto;
+	width:75%;
+	color:white;
+	font-size:2vw;
+	margin-left:25%;
+	border-bottom:1px solid white;
+}
+.first-b-text h1{
+	text-align:center;
+	color:white;
+	
+	background-color:black;
+	font-size:3vw;
+	
+}
+.first-b-text p{
+	margin:20px;
+	font-family: "Hoefler Text","Baskerville Old Face","Garamond","Times New Roman","serif"; 
+}
+.first-b-img img{
+	margin-left:25%;
+	width:50%;
+	height:auto;
+	border:12px solid white;
+}
+.second{
+	margin-left:25%;
+	margin-bottom:10px;
+}
+ .second-services h1{
+	color:white;
+	background:black;
+	text-align:center;
+	
+}
+.second .service-type {
+	margin-top:1%;
+	display:flex;
+	justify-content:space-between;
+
+
+
+}
+.second .service-type .service1,.service2,.service3{
+	border:1px solid black;
+	height:auto;
+	width:30%;
+	color:white;
+	background:black;
+	margin-left:1%;
+	border-radius: 10px;
+	
+
+}
+.second .service-type .service1 li {
+	text-decoration:none;
+	font-size:2vw;
+}
+.second .service-type .service1 h1 {
+	text-align:center;
+	color:white;
+	text-decoration: underline;
+	font-size:2vw;
+}
+.second .service-type .service2 li {
+	text-decoration:none;
+	font-size:2vw;
+}
+.second .service-type .service2 h1 {
+	text-align:center;
+	color:white;
+	text-decoration: underline;
+	font-size:2vw;
+}
+.second .service-type .service3 li {
+	text-decoration:none;
+	font-size:2vw;
+}
+.second .service-type .service3 h1 {
+	text-align:center;
+	color:white;
+	text-decoration: underline;
+	font-size:2vw;
+}
+.third{
+	margin-left:25%;
+}
+.third h1{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.third .gallery {
+	margin-top:10px;
+	justify-content: space-around;
+	display:flex;
+}
+.third .gallery .image1 img{
+	height:200px;
+	width:300px;
+	transition:1s;
+
+}
+.third .gallery .image2 img{
+	height:200px;
+	width:300px;
+	transition:1s;
+
+}
+.third .gallery .image3 img{
+	height:200px;
+	width:300px;
+	transition:1s;
+
+
+}
+img:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	transform: scale(1.1);
+}
